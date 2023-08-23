@@ -82,7 +82,7 @@ FORMAT_OPTIONS = --format docker
 TRANSFORM_OPTIONS = --format v2s1
 
 # Repositories
-MAIN_REPO = quay.io/dhashimo
+MAIN_REPO = quay.io/skupper
 COPY_REPO = localhost:5000/local
 
 # This is the list of external images that will be copied to $(MAIN_REPO).  If
