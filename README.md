@@ -26,6 +26,9 @@ Note that this is not a full repo copy; it's restricted to the list of
 images contained on the Makefile.  Skupper images (such as the router or
 controller) are not copied by this operation.
 
+See the Makefile contents for information on how to execute the different
+operations.
+
 
 # skupper-test image
 
