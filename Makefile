@@ -122,9 +122,12 @@ external_copy   := $(patsubst %,%_copy,$(EXTERNAL_IMAGES))
 # around, so instead the default operation is to just give some
 # hint on how to use it.
 all:
-	"Use 'make everything' for building and copying everything to the MAIN_REPO".
-	Normal use, however, is to select individual targets.
-	Check Makefile contents for documentation.
+	@echo "Use 'make everything' for building and copying everything to the MAIN_REPO".
+	@echo
+	@echo "MAIN_REPO=$(MAIN_REPO)"
+	@echo
+	@echo Normal use, however, is to select individual targets.
+	@echo Check Makefile contents for documentation.
 
 # For a generated image, we simply have a Dockerfile named after it and call
 # `podman build` on it, tagging it on the MAIN_REPO
