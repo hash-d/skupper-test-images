@@ -1,3 +1,10 @@
+
+# ARCHIVED
+
+The product of this work was moved into
+
+https://github.com/skupperproject/skupper/tree/main/test/images
+
 # Images for external dependencies
 
 The Makefile on this directory allows for the manipulation of container
